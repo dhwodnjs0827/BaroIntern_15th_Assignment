@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : BaseController
 {
+    private Player player;
+    
     private static readonly int OnMove = Animator.StringToHash("OnMove");
     private PlayerInputActions playerInputActions;
     private PlayerInputActions.PlayerActions playerActions;
@@ -11,8 +13,11 @@ public class PlayerController : BaseController
     {
         base.Awake();
 
+        player = GetComponent<Player>();
         playerInputActions = new PlayerInputActions();
         playerActions = playerInputActions.Player;
+
+        moveSpeed = player.Stat.MoveSpeed;
     }
 
     private void OnEnable()

@@ -14,7 +14,7 @@ public class MonsterSO : ScriptableObject
     public float MaxHPMul;
     public int AttackRange;
     public float AttackRangeMul;
-    public int AttakcSpeed;
+    public int AttackSpeed;
     public int MoveSpeed;
     public int MinExp;
     public int MaxExp;
@@ -31,7 +31,7 @@ public class MonsterSO : ScriptableObject
         MaxHPMul = data.MaxHPMul;
         AttackRange = data.AttackRange;
         AttackRangeMul = data.AttackRangeMul;
-        AttakcSpeed = data.AttakcSpeed;
+        AttackSpeed = data.AttackSpeed;
         MoveSpeed = data.MoveSpeed;
         MinExp = data.MinExp;
         MaxExp = data.MaxExp;
@@ -51,7 +51,7 @@ public class MonsterData
     public float MaxHPMul;
     public int AttackRange;
     public float AttackRangeMul;
-    public int AttakcSpeed;
+    public int AttackSpeed;
     public int MoveSpeed;
     public int MinExp;
     public int MaxExp;

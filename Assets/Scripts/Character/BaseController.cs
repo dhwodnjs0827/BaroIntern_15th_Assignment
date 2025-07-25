@@ -5,7 +5,8 @@ public class BaseController : MonoBehaviour
 {
     private Rigidbody2D rb;
     protected SpriteController spriteController;
-
+    
+    protected float moveSpeed;
     protected Vector2 movementDirection;
 
     protected virtual void Awake()
@@ -21,7 +22,7 @@ public class BaseController : MonoBehaviour
 
     private void Move(Vector2 direction)
     {
-        direction *= 3f;
+        direction *= moveSpeed;
         rb.velocity = direction;
         Rotate(direction);
     }
