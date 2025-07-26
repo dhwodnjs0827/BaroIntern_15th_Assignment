@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M0004
   m_EditorClassIdentifier: 
   MonsterID: M0004
-  Name: Werebear
+  Name: Enemy 3
   Description: "\uBC18\uC778\uBC18\uC218"
   Attack: 12
   AttackMul: 0.2
@@ -21,8 +21,8 @@ MonoBehaviour:
   MaxHPMul: 0.1
   AttackRange: 1
   AttackRangeMul: 0.5
-  AttakcSpeed: 0
+  AttackSpeed: 1.1
   MoveSpeed: 2
   MinExp: 13
   MaxExp: 26
-  DropItem: 30004
+  DropItem: 13270000

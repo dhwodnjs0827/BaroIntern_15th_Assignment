@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class MonsterController : BaseController
 {
     private Monster monster;
@@ -8,12 +6,18 @@ public class MonsterController : BaseController
     {
         base.Awake();
         monster = GetComponent<Monster>();
-        moveSpeed = monster.Data.MoveSpeed;
     }
 
-    private void Update()
+    private void Start()
     {
+        moveSpeed = monster.Stat.MoveSpeed;
+    }
+
+    protected override void Update()
+    {
+        base.Update();
         var dir = GameManager.Instance.Player.transform.position - transform.position;
         movementDirection = dir.normalized;
+        lookDirection = movementDirection;
     }
 }

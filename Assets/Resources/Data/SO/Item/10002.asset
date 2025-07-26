@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 10002
   m_EditorClassIdentifier: 
   ItemID: 10002
-  Name: "\uBC29\uD328"
-  Description: "\uB0A1\uC740 \uB098\uBB34\uB85C \uB9CC\uB4E0 \uBC29\uD328"
+  Name: "\uB0AB"
+  Description: "\uB0AB"
   UnlockLev: 1
   MaxHP: 0
   MaxHPMul: 0
   MaxMP: 0
   MaxMPMul: 0
-  MaxAtk: 0
+  MaxAtk: 38
   MaxAtkMul: 0
   MaxDef: 5
   MaxDefMul: 1.2

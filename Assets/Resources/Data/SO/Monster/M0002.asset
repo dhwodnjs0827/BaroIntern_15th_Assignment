@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M0002
   m_EditorClassIdentifier: 
   MonsterID: M0002
-  Name: Elite Orc
+  Name: Enemy 1
   Description: "\uB611\uB611\uD55C \uC624\uD06C"
   Attack: 10
   AttackMul: 0.2
@@ -21,8 +21,8 @@ MonoBehaviour:
   MaxHPMul: 0.2
   AttackRange: 1
   AttackRangeMul: 0.5
-  AttakcSpeed: 0
+  AttackSpeed: 1.05
   MoveSpeed: 1
   MinExp: 11
   MaxExp: 22
-  DropItem: 30002
+  DropItem: 11270000

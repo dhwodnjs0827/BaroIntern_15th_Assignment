@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M0001
   m_EditorClassIdentifier: 
   MonsterID: M0001
-  Name: Skeleton
+  Name: Enemy 0
   Description: "\uC6C0\uC9C1\uC774\uB294 \uBF08\uB2E4\uADC0"
   Attack: 10
   AttackMul: 0.2
@@ -21,8 +21,8 @@ MonoBehaviour:
   MaxHPMul: 0.1
   AttackRange: 1
   AttackRangeMul: 0.5
-  AttakcSpeed: 0
+  AttackSpeed: 1
   MoveSpeed: 1
   MinExp: 10
   MaxExp: 20
-  DropItem: 30000
+  DropItem: 10270000

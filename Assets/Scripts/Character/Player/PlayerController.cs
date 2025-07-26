@@ -16,8 +16,6 @@ public class PlayerController : BaseController
         player = GetComponent<Player>();
         playerInputActions = new PlayerInputActions();
         playerActions = playerInputActions.Player;
-
-        moveSpeed = player.Stat.MoveSpeed;
     }
 
     private void OnEnable()
@@ -27,6 +25,11 @@ public class PlayerController : BaseController
         playerActions.Move.started += MoveStarted;
         playerActions.Move.performed += MovePerformed;
         playerActions.Move.canceled += MoveCanceled;
+    }
+
+    private void Start()
+    {
+        moveSpeed = player.Stat.MoveSpeed;
     }
 
     private void OnDisable()
@@ -47,6 +50,7 @@ public class PlayerController : BaseController
     {
         movementDirection = context.ReadValue<Vector2>();
         movementDirection = movementDirection.normalized;
+        lookDirection = movementDirection;
     }
 
     private void MoveCanceled(InputAction.CallbackContext context)

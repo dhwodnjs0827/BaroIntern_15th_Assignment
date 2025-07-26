@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M0005
   m_EditorClassIdentifier: 
   MonsterID: M0005
-  Name: Orc rider
+  Name: Enemy 4
   Description: "\uD0C8 \uAC83\uC774 \uC788\uB294 \uC624\uD06C"
   Attack: 12
   AttackMul: 0.2
@@ -21,8 +21,8 @@ MonoBehaviour:
   MaxHPMul: 0.1
   AttackRange: 2
   AttackRangeMul: 0.5
-  AttakcSpeed: 0
+  AttackSpeed: 1.15
   MoveSpeed: 2
   MinExp: 14
   MaxExp: 28
-  DropItem: 20000
+  DropItem: 204e0000

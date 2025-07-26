@@ -14,11 +14,11 @@ public class MonsterSO : ScriptableObject
     public float MaxHPMul;
     public int AttackRange;
     public float AttackRangeMul;
-    public int AttackSpeed;
-    public int MoveSpeed;
+    public float AttackSpeed;
+    public float MoveSpeed;
     public int MinExp;
     public int MaxExp;
-    public int DropItem;
+    public int[] DropItem;
 
     public void Init(MonsterData data)
     {
@@ -51,11 +51,11 @@ public class MonsterData
     public float MaxHPMul;
     public int AttackRange;
     public float AttackRangeMul;
-    public int AttackSpeed;
-    public int MoveSpeed;
+    public float AttackSpeed;
+    public float MoveSpeed;
     public int MinExp;
     public int MaxExp;
-    public int DropItem;
+    public int[] DropItem;
 }
 
 [Serializable]
