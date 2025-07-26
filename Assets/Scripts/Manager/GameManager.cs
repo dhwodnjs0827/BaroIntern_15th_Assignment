@@ -38,8 +38,7 @@ public class GameManager : MonoSingleton<GameManager>
         {
             return;
         }
-
-
+        
         nearMonster = null;
         float minDistance = float.MaxValue;
 

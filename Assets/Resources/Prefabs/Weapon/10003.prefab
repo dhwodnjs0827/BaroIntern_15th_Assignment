@@ -48,6 +48,7 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: 05432eb73b2644b3e888a364a9467c6e, type: 2}
   projectile: {fileID: -3754543692581307853, guid: e6c5d9217db15479c9f5c485beaf61f5, type: 3}
   muzzlePoint: {fileID: 9217832237986449664}
+  mainSprite: {fileID: 1524268041501376367}
 --- !u!1 &2009628328866730196
 GameObject:
   m_ObjectHideFlags: 0
