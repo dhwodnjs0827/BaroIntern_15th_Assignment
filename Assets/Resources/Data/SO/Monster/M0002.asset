@@ -19,10 +19,10 @@ MonoBehaviour:
   AttackMul: 0.2
   MaxHP: 110
   MaxHPMul: 0.2
-  AttackRange: 1
+  AttackRange: 10
   AttackRangeMul: 0.5
-  AttackSpeed: 1.05
+  AttackSpeed: 2
   MoveSpeed: 1
   MinExp: 11
   MaxExp: 22
-  DropItem: 11270000
+  DropItem: 12270000

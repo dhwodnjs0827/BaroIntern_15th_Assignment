@@ -6,6 +6,8 @@ public class MonsterButton : MonoBehaviour
     private MonsterInfoUI info;
     [SerializeField] private Button button;
     [SerializeField] private Image image;
+    
+    public Button Button => button;
 
     public void Init(MonsterSO monsterSO, MonsterInfoUI ui)
     {

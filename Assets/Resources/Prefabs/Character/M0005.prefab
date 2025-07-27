@@ -483,6 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 161065a9fb87a4c51b153125be67063d, type: 2}
+  projectile: {fileID: -3754543692581307853, guid: e6c5d9217db15479c9f5c485beaf61f5, type: 3}
 --- !u!114 &7505143832521392745
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,14 +20,11 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Monster"))
+        var damaged = other.GetComponent<IDamage>();
+        if (damaged != null)
         {
-            var damaged = other.GetComponent<IDamage>();
-            if (damaged != null)
-            {
-                damaged.Damaged(damage);
-                Destroy(gameObject);
-            }
+            damaged.Damaged(damage);
         }
+        Destroy(gameObject);
     }
 }

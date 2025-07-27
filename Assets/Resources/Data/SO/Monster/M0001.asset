@@ -25,4 +25,4 @@ MonoBehaviour:
   MoveSpeed: 1
   MinExp: 10
   MaxExp: 20
-  DropItem: 10270000
+  DropItem: 11270000

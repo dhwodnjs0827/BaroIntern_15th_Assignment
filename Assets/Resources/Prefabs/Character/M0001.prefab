@@ -306,6 +306,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: a888607a6e26043569e11f226a54daea, type: 2}
+  attackPos: {fileID: 0}
+  projectile: {fileID: -3754543692581307853, guid: e6c5d9217db15479c9f5c485beaf61f5, type: 3}
 --- !u!114 &6461937397179374144
 MonoBehaviour:
   m_ObjectHideFlags: 0

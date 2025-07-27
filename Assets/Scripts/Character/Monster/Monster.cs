@@ -8,8 +8,11 @@ public class Monster : MonoBehaviour
     private SpriteController spriteController;
     private MonsterStatHandler monsterStatHandler;
     
+    [SerializeField] private Projectile projectile;
+    
     public MonsterSO Data => data;
     public MonsterStatHandler Stat => monsterStatHandler;
+    public Projectile Projectile => projectile;
 
     private void Awake()
     {
