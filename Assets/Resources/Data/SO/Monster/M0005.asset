@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MonsterID: M0005
   Name: Enemy 4
-  Description: "\uD0C8 \uAC83\uC774 \uC788\uB294 \uC624\uD06C"
+  Description: "Enemy 4 \uC124\uBA85 \uBB38\uAD6C"
   Attack: 12
   AttackMul: 0.2
   MaxHP: 100
@@ -25,4 +25,4 @@ MonoBehaviour:
   MoveSpeed: 2
   MinExp: 14
   MaxExp: 28
-  DropItem: 204e0000
+  DropItem: 14270000

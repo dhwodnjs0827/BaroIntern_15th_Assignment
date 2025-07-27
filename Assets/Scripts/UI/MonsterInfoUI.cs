@@ -15,7 +15,7 @@ public class MonsterInfoUI : MonoBehaviour
     public void SetData(MonsterSO data, Sprite monsterImage)
     {
         image.sprite = monsterImage;
-        name.text = $"이름: {data.name}";
+        name.text = $"이름: {data.Name}";
         description.text = $"설명: {data.Description}";
         attack.text = $"공격력: {data.Attack}";
         hp.text = $"체력: {data.MaxHP}";

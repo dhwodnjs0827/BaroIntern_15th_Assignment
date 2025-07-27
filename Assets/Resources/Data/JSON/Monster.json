@@ -3,7 +3,7 @@
     {
       "MonsterID": "M0001",
       "Name": "Enemy 0",
-      "Description": "움직이는 뼈다귀",
+      "Description": "Enemy 0 설명 문구",
       "Attack": 10,
       "AttackMul": 0.2,
       "MaxHP": 100,
@@ -14,12 +14,12 @@
       "MoveSpeed": 1,
       "MinExp": 10,
       "MaxExp": 20,
-      "DropItem": 10000
+      "DropItem": [10001]
     },
     {
       "MonsterID": "M0002",
       "Name": "Enemy 1",
-      "Description": "똑똑한 오크",
+      "Description": "Enemy 1 설명 문구",
       "Attack": 10,
       "AttackMul": 0.2,
       "MaxHP": 110,
@@ -30,12 +30,12 @@
       "MoveSpeed": 1,
       "MinExp": 11,
       "MaxExp": 22,
-      "DropItem": 10001
+      "DropItem": [10002]
     },
     {
       "MonsterID": "M0003",
       "Name": "Enemy 2",
-      "Description": "마법사",
+      "Description": "Enemy 2 설명 문구",
       "Attack": 10,
       "AttackMul": 0.2,
       "MaxHP": 105,
@@ -46,12 +46,12 @@
       "MoveSpeed": 1,
       "MinExp": 12,
       "MaxExp": 24,
-      "DropItem": 10002
+      "DropItem": [10003]
     },
     {
       "MonsterID": "M0004",
       "Name": "Enemy 3",
-      "Description": "반인반수",
+      "Description": "Enemy 3 설명 문구",
       "Attack": 12,
       "AttackMul": 0.2,
       "MaxHP": 120,
@@ -62,12 +62,12 @@
       "MoveSpeed": 2,
       "MinExp": 13,
       "MaxExp": 26,
-      "DropItem": 10003
+      "DropItem": [10004]
     },
     {
       "MonsterID": "M0005",
       "Name": "Enemy 4",
-      "Description": "탈 것이 있는 오크",
+      "Description": "Enemy 4 설명 문구",
       "Attack": 12,
       "AttackMul": 0.2,
       "MaxHP": 100,
@@ -78,7 +78,7 @@
       "MoveSpeed": 2,
       "MinExp": 14,
       "MaxExp": 28,
-      "DropItem": 10004
+      "DropItem": [10005]
     }
   ]
 }

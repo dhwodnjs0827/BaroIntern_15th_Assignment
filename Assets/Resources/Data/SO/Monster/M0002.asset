@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MonsterID: M0002
   Name: Enemy 1
-  Description: "\uB611\uB611\uD55C \uC624\uD06C"
+  Description: "Enemy 1 \uC124\uBA85 \uBB38\uAD6C"
   Attack: 10
   AttackMul: 0.2
   MaxHP: 110
