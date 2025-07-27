@@ -21,4 +21,9 @@ public class IllustratedGuideUI : MonoBehaviour
             button.Init(monster, info);
         }
     }
+
+    public void Toggle()
+    {
+        gameObject.SetActive(!gameObject.activeSelf);
+    }
 }

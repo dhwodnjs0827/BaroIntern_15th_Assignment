@@ -33,9 +33,12 @@ public class RangedWeapon : Weapon
 
     private void FireProjectile()
     {
-        var go = Instantiate(projectile);
-        go.transform.position = muzzlePoint.position;
-        go.Fire(targetDir, data.MaxAtk);
+        if (targetDir != Vector2.zero)
+        {
+            var go = Instantiate(projectile);
+            go.transform.position = muzzlePoint.position;
+            go.Fire(targetDir, data.MaxAtk);
+        }
     }
 
     private void Rotate()

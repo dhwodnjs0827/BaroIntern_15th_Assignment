@@ -75,6 +75,6 @@ public class MonsterStatHandler : MonoBehaviour, IDamage
             var dropItem = Instantiate(prefab);
             dropItem.transform.position = transform.position;
         }
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }
